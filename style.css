@@ -1,0 +1,47 @@
+/*.square {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    /*animation: animation_square 6s infinite linear;
+    animation-name: animation_square;
+    animation-duration: 6s;
+    animation-timing-function: infinite;
+    animation-duration: linear;
+
+}*/
+
+.cat {
+    width: 150px;
+    height: 150px;
+    background-image: url('https://seeklogo.com/images/S/scratch-cat-logo-7F652C6253-seeklogo.com.png');
+    background-size: cover;
+    animation: animat_cat 6s infinite linear;
+
+}
+
+@keyframes animat_cat {
+    0% {
+        margin-left: 50px;
+    }
+    20% {
+    margin-top: 360px;
+}
+    100% {
+        margin-left: 400px;
+    }
+}
+
+
+
+/*@keyframes animation_square {
+    0% {
+        margin-left: 50px;
+    }
+    20% {
+    margin-top: 360px;
+}
+    100% {
+        margin-left: 400px;
+    }
+}
+
